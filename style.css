@@ -1,0 +1,305 @@
+html{
+    scroll-behavior:inherit;
+}
+*{
+    margin: 0;
+    color: #463f3a;
+   
+}
+.header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: #e0afa0;
+    font-weight: bold;
+}
+#name{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        font-size: larger;
+        font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 517px;
+   
+
+ 
+ 
+}
+.about{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: larger;
+        font-weight: bold;
+
+}
+
+.header img {
+    height: 30;
+    width: 30;
+    border-radius: 50%;
+   margin: 6px 15px;
+background-color: white;
+align-items: center;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+ul.nav {
+    
+    list-style-type: none;
+  
+    padding: 10px;
+    display: flex;
+   
+
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    
+
+
+}
+.links-li{
+    font-size: larger;
+    margin: 10px;
+    margin: 0px 23px;
+   
+}
+
+main {
+    display: flex;
+    background-color:#f4f3ee;
+
+}
+
+.column-1 {
+    font-size: larger;
+    padding: 170px;
+    padding-left: 20px;
+}
+
+.column-2 img {
+    height: 380px;
+    width: 400px;
+    background-color: #e0afa0;
+    border-radius: 50%;
+
+    margin: 20px;
+    margin-right: 80px;
+    margin-top: 100px;
+   
+
+}
+
+#about{
+    height: 100vh;
+    background-color:  #f4f3ee;
+    text-align: center;
+    
+}
+
+.about-me{
+    font-size: 50px;
+    padding: 3px;
+    margin-bottom: 80px;
+    color: white;
+    background-color: #e0afa0;
+    
+}
+#about p{
+   text-align: left;
+   padding: 20px;
+  
+   font-size: larger;
+}
+
+
+.highlight{
+    font-weight: bold;
+}
+#about div{
+   align-items: center;
+   display: flex;
+   
+}
+#skills{
+    align-items: center;
+    display: flex;
+    margin: 20px;
+    gap: 200px;
+    height: 40px;
+    
+}
+.skills-logo{
+    background-color:  rgb(207, 195, 195);
+    align-items: center;
+    padding: 5px;
+    height: 50px;
+    width: 170px;
+  
+
+}
+.skills-logo img{
+    margin-left: 25px;
+}
+.skills-logo:hover{
+    background-color: #e0afa0;
+}
+
+#projects{
+    height: 100vh;
+    background-color:  #f4f3ee;
+    text-align: center;
+    
+}
+#projects h1{
+    font-size: 60px;
+    padding: 3px;
+    font-weight: bold;
+    color: white;
+    background-color: #e0afa0;
+  
+    
+}
+#contact{
+    height: 100vh;
+    background-color:  #f4f3ee;
+   
+    
+}
+#contact h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 3px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: #e0afa0;
+    
+}
+form{
+    background-color: #bcb8b1;
+    
+    height: 280px;
+    width: 300px;
+    align-items: center;
+    margin-left: 500px;
+    padding-top: 30px;
+
+   
+}
+.contact input,label,textarea{
+   margin-left: 50px;
+}
+#button{
+    display: flex;
+    font-size: larger;
+  margin-left: 120px;
+  margin-top: 20px;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  border-radius: 10%;
+  border: none;
+  padding-top: 3px;
+  padding-left:9px ;
+  color: white;
+  background-color: #463f3a;
+}
+#button:hover{
+    background-color: #e0afa0;
+}
+
+.highlight{
+    color: #e0afa0;
+}
+
+.name{
+    margin-left: 50px;
+}
+.email{
+    margin-left: 50px;
+}
+.project-1{
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.project-1 p{
+    padding-left: 30px;
+}
+.description{
+    font-weight: bolder;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.project-2{
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.project-2 p{
+    
+    padding-left: 30px;
+}
+
+.project-3{
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.project-3 p{
+    padding-left: 30px;
+}
+.description-para{
+    font-size: 20px;
+}
+#projects h1{
+color: white;
+background-color: #e0afa0;
+padding: 3px;
+}
+#projects h2{
+    font-size:40px;
+   background-color: none;
+   
+}
+#footer{
+    background-color:  #463f3a;
+    
+    
+    padding-top: 10px;
+    font-size: larger;
+    display: flex;
+   
+}
+#footer img{
+border-radius: 80%;
+margin: 10px;
+margin-top: 0px;
+}
+#greeting{
+    padding-top: 15px;
+  margin-left: 350px;
+  color: white;
+}
+#webaziz{
+    margin-top:15px;
+    margin-left: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+hr{
+   line-height: 5px;
+    background-color: black;
+}
